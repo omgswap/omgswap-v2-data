@@ -97,7 +97,7 @@ function App() {
               <Route
                 exacts
                 strict
-                path="/token/:tokenAddress"
+                path="/#/token/:tokenAddress"
                 render={({ match }) => {
                   if (OVERVIEW_TOKEN_BLACKLIST.includes(match.params.tokenAddress.toLowerCase())) {
                     return <Redirect to="/home" />
@@ -155,19 +155,19 @@ function App() {
                 </LayoutWrapper>
               </Route>
 
-              <Route path="/tokens">
+              <Route path="/#/tokens">
                 <LayoutWrapper savedOpen={savedOpen} setSavedOpen={setSavedOpen}>
                   <AllTokensPage />
                 </LayoutWrapper>
               </Route>
 
-              <Route path="/pairs">
+              <Route path="/#/pairs">
                 <LayoutWrapper savedOpen={savedOpen} setSavedOpen={setSavedOpen}>
                   <AllPairsPage />
                 </LayoutWrapper>
               </Route>
 
-              <Route path="/accounts">
+              <Route path="/#/accounts">
                 <LayoutWrapper savedOpen={savedOpen} setSavedOpen={setSavedOpen}>
                   <AccountLookup />
                 </LayoutWrapper>
