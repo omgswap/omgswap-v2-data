@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "sushiswap.vision site",
+  "Description": "omgswap.link site",
   "Outputs": {
     "DeploymentAccessKeyId": {
       "Description": "Access key ID for deploying to the S3 bucket",
@@ -82,12 +82,12 @@
       "Type": "AWS::CertificateManager::Certificate",
       "Description": "The certificate used to secure the CloudFront distribution",
       "Properties": {
-        "DomainName": "sushiswap.vision",
+        "DomainName": "omgswap.link",
         "ValidationMethod": "DNS",
         "Tags": [
           {
             "Key": "Name",
-            "Value": "sushiswap.vision"
+            "Value": "omgswap.link"
           },
           {
             "Key": "Stack",
@@ -241,10 +241,10 @@
               "ResponsePagePath": "/"
             }
           ],
-          "Comment": "sushiswap.vision",
+          "Comment": "omgswap.link",
           "Enabled": true,
           "Aliases": [
-            "sushiswap.vision"
+            "omgswap.link"
           ],
           "DefaultRootObject": "index.html",
           "HttpVersion": "http2",

@@ -1,4 +1,4 @@
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+export const FACTORY_ADDRESS = '0xe48EB6D2b808B09BEa13e3F34Cb8e7507fF4c1F1'
 
 export const BUNDLE_ID = '1'
 
@@ -11,7 +11,7 @@ export const timeframeOptions = {
 }
 
 // token list urls to fetch tokens from - use for warnings on tokens and pairs
-export const SUPPORTED_LIST_URLS__NO_ENS = [`${window.location.protocol}//${window.location.host}/tokenlist.json`]
+export const SUPPORTED_LIST_URLS__NO_ENS = [`https://raw.githubusercontent.com/omgswap/public-assets/master/tokenlist/tokenlist.json`]
 
 // hide from overview list
 export const OVERVIEW_TOKEN_BLACKLIST = [
