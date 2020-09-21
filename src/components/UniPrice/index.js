@@ -24,9 +24,9 @@ function formatPercent(rawPercent) {
 }
 
 export default function UniPrice() {
-  const daiPair = usePairData('0x109068d56A30e3c236B106Ec378D6ef5Fd31F4FA')
-  const usdcPair = usePairData('0xA86130E44AA6E277c4FD8eB266325A242606739D')
-  const usdtPair = usePairData('0xfc6b643F605c83Cf64E16e4CE01E96e1B857B437')
+  const daiPair = usePairData('0x109068d56a30e3c236b106ec378d6ef5fd31f4fa')
+  const usdcPair = usePairData('0xa86130e44aa6e277c4fd8eb266325a242606739d')
+  const usdtPair = usePairData('0xfc6b643f605c83cf64e16e4ce01e96e1b857b437')
 
   const totalLiquidity = useMemo(() => {
     return daiPair && usdcPair && usdtPair

@@ -62,6 +62,14 @@
       "logoURI": "https://raw.githubusercontent.com/omgswap/public-assets/master/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
     },
     {
+      "address": "0x88FBeCfeF7146242C18D26321b628E9FCa6B76dd",
+      "chainId": 1,
+      "name": "DeFi Index",
+      "symbol": "DFIX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/omgswap/public-assets/master/extra/token_logos/256/DFIX.png"
+    },
+    {
       "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "chainId": 1,
       "name": "SynthsUSD",
