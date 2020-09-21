@@ -46,9 +46,9 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
- 
+
   if (address?.toLowerCase() === '0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb') {
-    address = '0x56f46205fd4b20588ff116f6d3f05eb6fa78a1d4'
+    address = '0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb'
   }
 
   if (address?.toLowerCase() === '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f') {
