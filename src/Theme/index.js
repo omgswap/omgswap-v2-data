@@ -35,7 +35,7 @@ const theme = (darkMode, color) => ({
 
   // backgrounds / greys
   bg1: darkMode ? '#212429' : '#F4F7F7',
-  bg2: darkMode ? '#2C2F36' : '#E0EBEB',
+  bg2: darkMode ? '#13612D' : '#28C95D',
   bg3: darkMode ? '#242525' : '#EDEEF2',
   bg4: darkMode ? '#565A69' : '#CED0D9',
   bg5: darkMode ? '#565A69' : '#888D9B',
